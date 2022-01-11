@@ -1,9 +1,10 @@
 install:
 	composer install
-	
 brain-games:
-	php bin/brain-games.php
+	./bin/brain-games
 
+validate: 
+	composer validate
 console:
 	composer exec --verbose psysh
 
