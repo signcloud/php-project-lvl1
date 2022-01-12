@@ -13,3 +13,7 @@ function welcome()
 
       return $name;
 }
+function hello()
+{
+    line('Welcome to the Brain Game!');
+}
