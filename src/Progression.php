@@ -1,20 +1,28 @@
 <?php
 
-namespace Brain\Games\Gcd;
+namespace Brain\Games\Progression;
 
 use function cli\line;
 use function cli\prompt;
 
-function gcd($name)
+function progression($name)
 {
     $good = 0;
-    for ($i = 1; $i <= 3; $i++) {
-        line('Find the greatest common divisor of given numbers.');
-        $randNumber1 = rand(1, 100);
-        $randNumber2 = rand(1, 100);
 
-        $answer = prompt("Question: {$randNumber1} {$randNumber2}?");
-        $result = gmp_gcd($randNumber1, $randNumber2);
+    for ($i = 1; $i <= 3; $i++) {
+        $add = rand(1, 10);
+        $start = rand(1, 10);
+        $unknown = rand(0, 9);
+        $progression = [];
+        for ($j = 0; $j <= 9; $j++) {
+            $progression[$j] = $start + $add * $j;
+        }
+        $result = $progression[$unknown];
+        $progression[$unknown] = "..";
+        $progressionLine = implode(" ", $progression);
+
+        line('What number is missing in the progression?');
+        $answer = prompt("Question: {$progressionLine}?");
         if (!is_numeric($answer)) {
             line("Your enter is incorrect!");
             $i--;
