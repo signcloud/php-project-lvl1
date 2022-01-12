@@ -16,23 +16,19 @@ function calc($name)
         $result = 0;
         $operation = $operations[rand(0, 3)];
         $answer = prompt("Question: {$randNumber1}{$operation}{$randNumber2}?");
-        switch ($operation){
-            case "-":{
+        switch ($operation) {
+            case "-":
                 $result = $randNumber1 - $randNumber2;
                 break;
-            }
-            case "+":{
+            case "+":
                 $result = $randNumber1 + $randNumber2;
                 break;
-            }
-            case "*":{
+            case "*":
                 $result = $randNumber1 * $randNumber2;
                 break;
-            }
-            case "/":{
+            case "/":
                 $result = $randNumber1 / $randNumber2;
                 break;
-            }
         }
         if (!is_numeric($answer)) {
             line("Your enter is incorrect!");
