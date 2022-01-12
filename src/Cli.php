@@ -15,5 +15,5 @@ function welcome()
 }
 function hello()
 {
-    line('Welcome to the Brain Game!');
+    line('Welcome to the Brain Games!');
 }
