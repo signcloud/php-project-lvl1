@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+use Brain\Games\Gcd;
+use Brain\Games\Cli;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$name = Cli\welcome();
+Gcd\gcd($name);
