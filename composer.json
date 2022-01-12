@@ -19,7 +19,8 @@
     "autoload": {
         "files": [
             "src/Cli.php",
-            "src/Even.php"
+            "src/Even.php",
+            "src/Calc.php"
         ]
     },
     "require-dev": {

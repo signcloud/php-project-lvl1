@@ -5,7 +5,7 @@ namespace Brain\Games\Even;
 use function cli\line;
 use function cli\prompt;
 
-function AskEven($name)
+function askEven($name)
 {
     $good = 0;
     for ($i = 1; $i <= 3; $i++) {

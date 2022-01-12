@@ -1,9 +1,9 @@
 #!/usr/bin/env php
 <?php
-use Brain\Games\Even;
+use Brain\Games\Calc;
 use Brain\Games\Cli;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $name = Cli\welcome();
-Even\askEven($name);
+Calc\calc($name);
