@@ -6,4 +6,6 @@
 [![PHP CI](https://github.com/signcloud/php-project-lvl1/actions/workflows/main.yml/badge.svg)](https://github.com/signcloud/php-project-lvl1/actions/workflows/main.yml)
 
 <a href="https://asciinema.org/a/jotZ2PO1Ya1hHBN5JNgDUfMaK" target="_blank"><img src="https://asciinema.org/a/jotZ2PO1Ya1hHBN5JNgDUfMaK.svg" /></a>
-<script id="asciicast-jotZ2PO1Ya1hHBN5JNgDUfMaK" src="https://asciinema.org/a/jotZ2PO1Ya1hHBN5JNgDUfMaK.js" async></script>
+
+<a href="https://asciinema.org/a/mygvjAjjv7fu2OZJ183GWKcfA" target="_blank"><img src="https://asciinema.org/a/mygvjAjjv7fu2OZJ183GWKcfA.svg" /></a>
+
